@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" id="signupForm" onsubmit="submitForm()">
+      <h4>SignUp Form</h4>
+      <div class="email">
+        <label for="email">Email :</label>
+        <input type="text" id="email"  />
+        <p id="emailError" class="error"></p>
+      </div>
+      <div class="password">
+        <label for="password"> Password :</label>
+        <input type="text" id="password" />
+
+        <p id="passwordError" class="error"></p>
+      </div>
+      <p id="successMessage" class="success"></p>
+      <button id="btn" type="submit">submit</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
